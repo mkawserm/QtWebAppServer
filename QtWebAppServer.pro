@@ -61,6 +61,6 @@ win32:*g++* {
 linux:!android{
     headers.path=$$[QT_INSTALL_HEADERS]/QtWebAppServer
     headers.files=$$HEADERS
-    target.path=$$[QT_HOST_LIBS]
+    target.path=$$[QT_INSTALL_HEADERS]../lib
     INSTALLS = headers target
 }
